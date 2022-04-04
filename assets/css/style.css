@@ -1,0 +1,110 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Color */
+.text-pastel-purple-dark {
+  color: #3b2280;
+}
+
+.background-color-pastel-purple {
+  background-color: #cab8ff;
+}
+
+/* Book Button */
+.book-btn {
+  background-color: #c1ffd7;
+  color: #3b2280;
+}
+
+/* Heading */
+.big-heading {
+  font-size: 3.5rem;
+  letter-spacing: 2.5px;
+}
+
+/* Navbar */
+.navbar {
+  flex-wrap: nowrap;
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
+  white-space: normal;
+  line-height: 1;
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+  color: #846fc1;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-dark .navbar-brand {
+  color: #3b2280;
+}
+
+.nav-item {
+  padding: 0 0 0 18px;
+}
+
+/* Title Section */
+#title {
+  background-color: #cab8ff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-container {
+  color: #fff;
+}
+
+.book-now {
+  margin: 25px 0;
+}
+
+.title-image-container {
+  text-align: right;
+}
+
+.title-image {
+  width: 95%;
+}
+
+/* Viewports */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image-container {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-left: 10%;
+    text-align: left;
+  }
+}
