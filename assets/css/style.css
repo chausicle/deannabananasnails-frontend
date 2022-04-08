@@ -12,9 +12,9 @@ h6 {
   font-weight: bold;
 }
 
-.container-fluid {
+/* .container-fluid {
   padding: 7% 15%;
-}
+} */
 
 /* Color */
 .text-pastel-purple-dark {
@@ -39,16 +39,59 @@ h6 {
 
 /* Navbar */
 .navbar {
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   padding-bottom: 4.5rem;
 }
 
+.nav-row {
+  width: 100%;
+}
+
+.brand-container {
+  text-align: left;
+}
+
+.menu {
+  text-align: right;
+}
+
+/* .collapse {
+  padding-bottom: 4.5rem;
+} */
+
 .navbar-brand {
+  position: relative;
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.25;
+  margin: 0px;
+  overflow-wrap: break-word;
+  padding: 0;
+  text-align: center;
+  width: 110px;
   white-space: normal;
-  line-height: 1;
+}
+
+.brand-container {
+  position: absolute;
+  transform: rotate(45deg);
+  border: 3px solid #b6defd;
+  width: 85px;
+  height: 85px;
+  top: 12px;
+  left: 3px;
+}
+
+.brand-container-2 {
+  position: absolute;
+  transform: rotate(45deg);
+  border: 3px solid #b6defd;
+  width: 85px;
+  height: 85px;
+  top: 12px;
+  left: 18px;
 }
 
 .navbar-dark .navbar-brand:focus,
@@ -71,6 +114,7 @@ h6 {
 /* Title Section */
 #title {
   background-color: #cab8ff;
+  /* padding: 7% 15%; */
 }
 
 #title .container-fluid {
@@ -90,7 +134,8 @@ h6 {
 }
 
 .title-image {
-  width: 95%;
+  width: 22rem;
+  /* width: 50%; */
 }
 
 /* Viewports */
@@ -103,8 +148,7 @@ h6 {
     text-align: center;
   }
 
-  .navbar-nav {
-    margin-left: 10%;
-    text-align: left;
+  .title-image {
+    width: 80%;
   }
 }
