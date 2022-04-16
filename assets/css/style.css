@@ -138,6 +138,16 @@ h6 {
   /* width: 50%; */
 }
 
+/* Body Content */
+#body-content {
+  padding: 7% 15%;
+}
+
+/* Services */
+.service-title-container {
+  align-items: center;
+}
+
 /* Viewports */
 @media (max-width: 991px) {
   #title {
