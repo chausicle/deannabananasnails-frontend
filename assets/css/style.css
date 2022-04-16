@@ -2,6 +2,10 @@ body {
   font-family: "Montserrat";
 }
 
+h1 {
+  font-weight: bold;
+}
+
 h1,
 h2,
 h3,
@@ -9,7 +13,13 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat";
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+
+h2,
+h3 {
+  color: #3b2280;
+  font-weight: 500;
 }
 
 /* .container-fluid {
@@ -146,6 +156,31 @@ h6 {
 /* Services */
 .service-title-container {
   align-items: center;
+}
+
+.service-titles {
+  margin-bottom: 20px;
+}
+
+.price-time {
+  text-align: right;
+}
+
+.price {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.time {
+  color: #9b9b9b;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.book-container {
+  align-items: center;
+  display: flex;
 }
 
 /* Viewports */
