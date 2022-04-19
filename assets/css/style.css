@@ -183,6 +183,46 @@ h3 {
   display: flex;
 }
 
+/* Contact & Business Hours */
+#contact-hours {
+  background-color: #f7f7f7;
+  padding: 12% 5% 10%;
+  position: sticky;
+  top: 10px;
+}
+
+.contact-hours-title {
+  font-size: 1.25rem;
+}
+
+.phone-container {
+  align-items: center;
+  display: flex;
+}
+
+.fa-mobile-screen {
+  font-size: 1.25rem;
+  margin-right: 10px;
+}
+
+.hours {
+}
+
+.hours-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.hours-day {
+  letter-spacing: 1px;
+}
+
+.hours-time {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
 /* Viewports */
 @media (max-width: 991px) {
   #title {
